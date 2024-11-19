@@ -1,4 +1,6 @@
-#antsnet ct run
+#antsnet ct submit jobs
+
+# note, for --longitudinal, thickness-iterations = 1, so that we don't waste time running KK for these images. use the post-proc script to run KK with lesions
 
 sub=$1
 

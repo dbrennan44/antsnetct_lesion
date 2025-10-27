@@ -3,7 +3,7 @@
 # note, for --longitudinal, thickness-iterations = 1, so that we don't waste time running KK for these images. use the post-proc script to run KK with lesions
 
 sub=$1
-
+# hi
 job1_id=${sub}_2WK
 bsub -J $job1_id -o /project/gugger_1/nishants/data/logs/${sub}_2WK_log.txt \
 singularity run \
